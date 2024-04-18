@@ -1,6 +1,8 @@
 # SAR_RECOMBINANT_HDPs
 
-Repository of supplemental information used in the paper: *Structure–Antimicrobial Activity Relationships of Recombinant Host Defense Peptides Against Drug-Resistant Bacteria*
+Repository of supplemental information used in the paper: 
+
+**Structure–Antimicrobial Activity Relationships of Recombinant Host Defense Peptides Against Drug-Resistant Bacteria**
 
 Sergio Travé-Asensio1, Aida Tort-Miró1, Silvana Pinheiro2,3, Elena Garcia-Fruitó1*, Anna Arís1*, William J. Zamora2,3,4*
 1.	Department of Ruminant Production, Institute of Agriculture and Food Research (IRTA), Caldes de Montbui, 08140 Barcelona, Spain
