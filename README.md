@@ -5,7 +5,7 @@ Repository of supplemental information used in the paper:
 **Structure–Antimicrobial Activity Relationships of Recombinant Host Defense Peptides Against Drug-Resistant Bacteria**
 
 Sergio Travé-Asensio1, Aida Tort-Miró1, Silvana Pinheiro2,3, Elena Garcia-Fruitó1*, Anna Arís1*, William J. Zamora2,3,4*
-1.	Department of Ruminant Production, Institute of Agriculture and Food Research (IRTA), Caldes de Montbui, 08140 Barcelona, Spain
+1. IRTA, Torre Marimon, Ctra C-59, Km 12,1, 08140 Caldes de Montbui, Barcelona, Spain
 2.	CBio3 Laboratory, School of Chemistry, University of Costa Rica, San Pedro, San José, Costa Rica.
 3.	Laboratory of Computational Toxicology and Artificial Intelligence (LaToxCIA), Biological Testing Laboratory (LEBi), University of Costa Rica, San Pedro, San José, Costa Rica.
 4.	Advanced Computing Lab (CNCA), National High Technology Center (CeNAT), Pavas, San José, Costa Rica
