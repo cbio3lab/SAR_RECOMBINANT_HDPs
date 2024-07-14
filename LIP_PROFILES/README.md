@@ -6,3 +6,7 @@ It is based on the *IEFPCM/MST continuum solvation method*, wherein the lipophil
 
 ![image](PICTURES/eq1.png)
 
+
+
+
+
