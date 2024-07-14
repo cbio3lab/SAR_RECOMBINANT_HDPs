@@ -1,4 +1,4 @@
-# SAR_RECOMBINANT_HDPs
+# SAR RECOMBINANT HDPs
 
 Repository of supplemental information used in the paper: 
 
