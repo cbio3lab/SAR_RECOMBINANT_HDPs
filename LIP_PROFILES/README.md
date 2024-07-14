@@ -7,6 +7,8 @@ It is based on the *IEFPCM/MST continuum solvation method*, wherein the lipophil
 ![image](PICTURES/eq1.png)
 
 
+![image](https://raw.githubusercontent.com/cbio3lab/SAR_RECOMBINANT_HDPs/main/PICTURES/eq1.png)
+
 
 
 
