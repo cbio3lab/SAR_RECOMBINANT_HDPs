@@ -1,4 +1,4 @@
-#STRUCTURES
+# STRUCTURES
 
 The structural information of the HDPs was obtained from:
 
