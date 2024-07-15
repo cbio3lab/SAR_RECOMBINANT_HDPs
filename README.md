@@ -20,7 +20,7 @@ Furthermore, a state-of-the-art approach to calculating lipophilicity and amphip
 
 The attached figure represents the amino acid lipophilicity profile of the HDPs domains of five 1st generation antimicrobials. The amino acids responsible for forming the hydrophilic and hydrophobic faces in the HDPs are represented by blue and yellow rectangles, respectively
 
-In the folder **LIP_PROFILES** are the CSV files where the meaning of each factor used to obtain the final value of lipophilicity of each amino acid is detailed.
+In the folder **LIP_PROFILES** are the **CSV files** where the meaning of each factor used to obtain the final value of lipophilicity of each amino acid is detailed.
 
 
 
