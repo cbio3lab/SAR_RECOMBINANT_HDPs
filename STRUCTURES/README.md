@@ -11,3 +11,6 @@ The structural information of the HDPs was obtained from:
 4. cathelicidin (LL37, PDB code 5nmn 109).
   
 6. β-defensin lingual antimicrobial peptide (LAP), it was simulated using AlphaFold2104 since its structure is not deposited in the PDB
+
+The multidomain proteins were modelled using the ColabFold Server
+
