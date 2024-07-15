@@ -7,7 +7,7 @@ It is based on the *IEFPCM/MST continuum solvation method*, wherein the lipophil
 ![image](https://raw.githubusercontent.com/cbio3lab/SAR_RECOMBINANT_HDPs/main/PICTURES/eq1.png)
 
 
-**Eq. 1** applies to any peptide composed of N amino acids, where **$\lambda$** stands for the fraction of solvent-exposed surface area (SASA) of the amino acid, including the backbone (bb), side-chain (sc), and capping groups (cg) according to the local structural environment of the HDP domain. For our purposes, the SASA was determined using NACCESS program. The   factor accounts for a correction due to the burial of the side chain of hydrophobic residues (Ala, Leu, Ile, Val, Pro, Phe, Trp, Met, and Tyr) from water to a lipophilic environment. This contribution has been estimated to be 0.023 kcal mol<sup>-1</sup>Å<sup>-2</sup> according to the studies reported by Moon and Fleming for the transfer of nonpolar side chains from water into a lipid bilayer (https://www.pnas.org/doi/full/10.1073/pnas.1103979108). Therefore, the **$\beta$** term had been estimated from the fraction of the buried side chain concerning the fully buried side chain.
+**Eq. 1** applies to any peptide composed of N amino acids, where **$\lambda$** stands for the fraction of solvent-exposed surface area (SASA) of the amino acid, including the backbone (bb), side-chain (sc), and capping groups (cg) according to the local structural environment of the HDP domain. For our purposes, the SASA was determined using NACCESS program. The **$\beta$** factor accounts for a correction due to the burial of the side chain of hydrophobic residues (Ala, Leu, Ile, Val, Pro, Phe, Trp, Met, and Tyr) from water to a lipophilic environment. This contribution has been estimated to be 0.023 kcal mol<sup>-1</sup>Å<sup>-2</sup> according to the studies reported by Moon and Fleming for the transfer of nonpolar side chains from water into a lipid bilayer (https://www.pnas.org/doi/full/10.1073/pnas.1103979108). Therefore, the **$\beta$** term had been estimated from the fraction of the buried side chain concerning the fully buried side chain.
 
 In this version of the calculation of context-dependent lipophilicity of amino acids, two correction factors were introduced:
 
@@ -28,32 +28,34 @@ Thus, the **CSV files** with the lipophilicity profiles in the HDPs contains:
 
 **3. pHcol:** The pH at which the lipophilicity calculation was made.
 
-**4. logD_M1:**
+**4. logD_M1:** Sequence-based lipophilicity of the HDPs domains. Cumulative lipophilicity from the sum of the individual contributions from each amino acid.
 
-**5. sf:**
+**5. sf:** Solvent-accessible surface area (SASA) of the weighted average of the rotamers for each amino acid (see https://pubs.acs.org/doi/10.1021/acs.jpclett.9b00028 for details)
 
-**6. sasresi:**
+**6. sasresi:** Solvent-accessible surface area (SASA) of a given amino acid in the HDP domain.
 
-**7. f:**
+**7. f:** Fraction of a given amino acid in the HDP domain regarding the given value in sf. 
 
-**8. sfsc:**
+**8. sfsc:** Solvent-accessible surface area (SASA) of the weighted average of the rotamers of a given amino acid side-chain.
 
-**9. sassc:**
+**9. sassc:** Solvent-accessible surface area (SASA) of a given amino acid side-chain in the HDP domain.
 
-**10. fsc:**
+**10. fsc:** Fraction of a given amino acid side-chain in the HDP domain regarding the given value in sfsc. 
 
-**11. hbbb:**
+**11. hbbb:** **$\alpha$** Intramolecular hydrogen bond in the amino acid backbone determined using the program DSSP.*
 
-**12. hbsc:**
+**12. hbsc:** **$\alpha$** Intramolecular hydrogen bond in the amino acid side-chain.*
 
-**13. hpeDB:**
+**13. hpeDB:** **$\beta$** Residue interacting with hydrophobic effect.*
 
-**14. sb:**
+**14. sb:** **$\gamma$** Intramolecular salt bridge interaction in the amino acid side-chain.*
 
-**15. logD_M2:**
+**15. logD_M2:** logD_M1 corrected by **$\lambda$** (fraction of solvent-exposed surface area (SASA) of the amino acid)
 
-**16. logD_M3:**
+**16. logD_M3:** logD_M2 corrected by **$\alpha$** (hbbb)
 
-**17. logD_M4:**
+**17. logD_M4:** logD_M3 corrected by **$\alpha$** (hbsc)
 
-**18. logD_M5:**
+**18. logD_M5:** logD_M4 corrected by **$\gamma$** (sb)
+
+* 0 = no interaction identified; 1 = one interaction identified; 2 = two interactions identified
