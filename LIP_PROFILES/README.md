@@ -42,13 +42,13 @@ Thus, the **CSV files** with the lipophilicity profiles in the HDPs contains:
 
 **10. fsc:** Fraction of a given amino acid side-chain in the HDP domain regarding the given value in sfsc. 
 
-**11. hbbb:** **$\alpha$** Intramolecular hydrogen bond in the amino acid backbone determined using the program DSSP.*
+**11. hbbb:** Intramolecular hydrogen bond in the amino acid backbone determined using the program DSSP (**$\alpha$**).*
 
-**12. hbsc:** **$\alpha$** Intramolecular hydrogen bond in the amino acid side-chain.*
+**12. hbsc:** Intramolecular hydrogen bond in the amino acid side-chain (**$\alpha$**).*
 
-**13. hpeDB:** **$\beta$** Residue interacting with hydrophobic effect.*
+**13. hpeDB:** Residue interacting with hydrophobic effect (**$\beta$**).*
 
-**14. sb:** **$\gamma$** Intramolecular salt bridge interaction in the amino acid side-chain.*
+**14. sb:** Intramolecular salt bridge interaction in the amino acid side-chain (**$\gamma$**).*
 
 **15. logD_M2:** logD_M1 corrected by **$\lambda$** (fraction of solvent-exposed surface area (SASA) of the amino acid)
 
