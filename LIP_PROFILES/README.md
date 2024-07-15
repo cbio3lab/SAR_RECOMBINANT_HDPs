@@ -60,4 +60,5 @@ Thus, the **CSV files** with the lipophilicity profiles in the HDPs contains:
 
 * 0 = no interaction identified; 1 = one interaction identified; 2 = two interactions identified
 
-  **The amphipathicity value was calculated based on logD_M5**
+
+**The amphipathicity value was calculated based on logD_M5**
