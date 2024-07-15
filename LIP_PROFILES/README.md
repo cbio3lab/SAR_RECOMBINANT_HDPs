@@ -19,10 +19,41 @@ Initially, the parameter **$\alpha$** introduced a correction to the hydrophobic
 
 Finally, the **$\gamma$** factor accounts for the enhancement of the amino acid's lipophilic character due to the formation of salt bridges. This electrostatic interaction has been experimentally shown to increase the transfer of oppositely charged side chains in model peptides in n-octanol/water systems by up to ca. 4 logP units relative to glycine. Additionally, it stabilizes the presence of charged residues in highly hydrophobic environments, such as transmembrane helices. Stabilization in both immiscible solvent systems and transmembrane proteins has demonstrated a consensus value of about 1 logP unit (approximately 1 kcal/mol) compared to the cost of transferring these ionic side chains individually without interacting with each other. In this framework, for consistency with our calculations, the n-octanol/water partition coefficient of non-interacting pairs of oppositely charged amino acid side chains is around -9 logP units. This suggests that to stabilize these pairs in hydrophobic environments by at least 1 logP unit (0.5 logP units by residue), the interaction must favor the transfer to n-octanol by at least 10 logP units. In this way, the value adopted for **$\gamma$** in each amino acid forming a salt bridge is approximately 5 logP units. For special cases involving a three-body interaction, where the same charged side chain participates in two salt bridges, a **$\gamma$** value of 7 logP units was established for the amino acid that interacts twice to achieve an additional global stabilization of 2 logP units (1 logP unit by pair). These extra logP units compared to a two-body interaction are supported by evidence indicating that three-body intermolecular interactions in proteins, e.g., cation-**$\pi$**-cation interactions, exhibit greater stability than the simple additive assumption.
 
+
 Thus, the CSV files with the lipophilicity profiles in the HDPs contains:
 
 **1. id:** The identifier for each amino acid in the *pdb structure* of the HDPs (see STRUCTURES folder).
 
+**2. res:** The three-letter code of each amino acid.
 
+**3. pHcol:** The pH at which the lipophilicity calculation was made.
 
+**4. logD_M1:**
 
+**5. sf:**
+
+**6. sasresi:**
+
+**7. f:**
+
+**8. sfsc:**
+
+**9. sassc:**
+
+**10. fsc:**
+
+**11. hbbb:**
+
+**12. hbsc:**
+
+**13. hpeDB:**
+
+**14. sb:**
+
+**15. logD_M2:**
+
+**16. logD_M3:**
+
+**17. logD_M4:**
+
+**18. logD_M5:**
